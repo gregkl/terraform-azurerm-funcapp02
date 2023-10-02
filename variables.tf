@@ -12,3 +12,9 @@ variable "TF_VAR_client_id" {
   type    = string
   default = "4c796ec9-feea-4140-b4d8-ad932630e92d"
 }
+
+variable "TF_VAR_client_secret" {
+    type = string
+    sensitive = true
+  
+}
