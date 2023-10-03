@@ -25,6 +25,9 @@ resource "random_integer" "random" {
   min = "0000"
   }
 
+resource "random_string" "strandom" {
+  length = 4    
+}
 resource "azurerm_resource_group" "rg" {
   name     = "rggkguru${random_integer.random.result}"
   location = "West Europe"
