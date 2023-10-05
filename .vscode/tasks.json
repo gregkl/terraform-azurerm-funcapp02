@@ -38,15 +38,5 @@
 			"options": {
 				"cwd": "${workspaceFolder}/func"
 			}
-		},
-		{
-			"type": "shell",
-			"label": "npm prune (functions)",
-			"command": "npm prune --production",
-			"problemMatcher": [],
-			"options": {
-				"cwd": "${workspaceFolder}/func"
-			}
-		}
+		} 
 	]
-}
