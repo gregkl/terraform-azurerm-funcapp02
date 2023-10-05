@@ -36,8 +36,17 @@
 			"isBackground": true,
 			"dependsOn": "npm install (functions)",
 			"options": {
-				"cwd": "${workspaceFolder}/func"
+				"cwd": "${workspaceFolder}/Function"
 			}
-		} 
+		},
+		{
+			"type": "shell",
+			"label": "npm prune (functions)",
+			"command": "npm prune --production",
+			"problemMatcher": [],
+			"options": {
+				"cwd": "${workspaceFolder}/Function"
+			}
+		}
 	]
 }
