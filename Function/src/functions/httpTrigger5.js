@@ -1,6 +1,6 @@
 const { app } = require('@azure/functions');
 
-app.http('httpTrigger1', {
+app.http('httpTrigger5', {
     methods: ['GET', 'POST'],
     authLevel: 'anonymous',
     handler: async (request, context) => {
