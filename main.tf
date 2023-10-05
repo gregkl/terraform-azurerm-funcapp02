@@ -29,7 +29,7 @@ resource "random_string" "strandom" {
   length = 4    
 }
 resource "azurerm_resource_group" "rg" {
-  name     = "rggkguru${random_integer.random.result}"
+  name     = "gkfuncrg${random_integer.random.result}"
   location = "West Europe"
 
 }
